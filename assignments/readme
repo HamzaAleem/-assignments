@@ -1,0 +1,31 @@
+# Kaggle ETL Pipeline using Python & SQL
+
+## Project Overview
+This project demonstrates an end-to-end ETL (Extract, Transform, Load) pipeline
+built as part of a Data Engineering learning journey.
+
+## Tech Stack
+- Python
+- Pandas
+- Kaggle API
+- SQL
+- SQLAlchemy
+- pyodbc
+
+## Workflow
+1. Extract data from Kaggle using Kaggle JSON API
+2. Transform raw data into clean Pandas DataFrames
+3. Load transformed data into SQL database
+4. Perform analysis using SQL queries
+
+## Key Learning
+This project highlights how AI tools like ChatGPT enable non-coders
+to understand automation, APIs, and data engineering workflows effectively.
+
+## How to Run
+1. Install dependencies  
+   `pip install -r requirements.txt`
+2. Configure Kaggle API
+3. Run ETL scripts in order:
+   - kaggle_ETL.py
+   - SQLQuery1.py
